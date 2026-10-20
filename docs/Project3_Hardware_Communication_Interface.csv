@@ -1,0 +1,6 @@
+Interface Node Name,Network Driver Protocol,Physical Medium Connection,PLC Memory Map Address,Data Mapping Payload,Scan Rate Interval,Timeout Threshold
+MES_Gateway_Node,EtherNet/IP,RJ45 Cat6 Shielded Tw-Pair,N7:10 to N7:50,Recipe Header String,500 ms,2500 ms
+Filling_Controller_Rack,PROFINET,Industrial M12 D-Coded Conn,DB100.DBX0.0,Target Vol Real Block,100 ms,500 ms
+Checkweigher_Scale_IO,Modbus TCP,RJ45 Cat6 Unshielded,Holding Register 40001,Weight Value Real,250 ms,1000 ms
+Data_Historian_Client,OPC UA,Fiber Optic Multi-Mode LC,Tag_Production_Status,Machine Status DINT,1000 ms,5000 ms
+Safety_PLC_Relay_Chain,EtherNet/IP (CIP Safety),RJ45 Cat6 Shielded Tw-Pair,Safety_Status_Word,Interlock Bit Array,20 ms,100 ms
